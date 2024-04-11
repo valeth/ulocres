@@ -28,6 +28,7 @@
                     packages = with pkgs; [
                         rustfmt
                         cargo-deny
+                        cargo-msrv
                     ];
                 };
             });
